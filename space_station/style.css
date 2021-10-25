@@ -1,0 +1,143 @@
+/* Navbar */
+.menu {
+    display:flex;
+    justify-content: center;
+}
+.menu>div{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.menu>div:hover{
+    background-color: peachpuff;
+    transform: scale(1.2,1.2);
+    transition: transform .5s;
+}
+.menu>div>a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+/* Navbar */
+
+/* Home */
+#home{
+    margin: 0px;
+  background-image: url(./thumbnails/backgorund.jpg);
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-center{
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+    margin: 10px auto;
+    padding-top: 170px ;
+}
+.text-center>h1{
+    border: 3px solid white;
+    padding: 10px;
+}
+/* Home end */
+
+/* Gallery */
+#gallery>h1{
+    font-size: 50px;
+    width: fit-content;
+    margin: 30 auto;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    color: red  ;
+}
+.flex-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: peachpuff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 2px #94898999;
+}
+
+.photo-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4f505093;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+
+.photo-container{
+    margin: 20px;
+}
+
+.photo{
+position: relative;
+  width: 100%;
+}
+
+.photo:hover .photo-overlay{
+    height: 100%;
+}
+/* Gallery end */
+
+/* Reservation */
+#reservation-form>h1{
+    font-size: 50px;
+    width: fit-content;
+    margin: 30 auto;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    color: red  ;
+}
+#reservation-form>div{
+    width: fit-content;
+    box-shadow: 1px 1px 5px 2px #94898999;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: peachpuff;
+    border-radius: 10px;
+}
+
+#reserve-form{
+    text-align: start;
+    width: fit-content;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border: 2px solid peru;
+
+}
+
+#reserve-form>input{
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+#reserve-form>button{
+    border: none;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: peachpuff;
+    border: 2px solid peru;
+    cursor: pointer;
+}
+/* Reseration */
