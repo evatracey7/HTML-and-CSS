@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/one_page_website.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <!-- Google font end -->
+</head>
+
+<body style="margin: 0px;">
+    <nav id="navbar">
+        <div id="navbar-container">
+            <a href="#home">HOME</a>
+            <a href="#photography">PHOTOGRAPHY</a>
+            <a href="#featured-video">FEATURED VIDEOS</a>
+            <a href="#contact">CONTACT US</a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div id="home-container">
+            <h1>Up and Coming Films</h1>
+            <img src="./images/movie_icon.svg" alt="Movie icon" width="200px" height="200px">
+            <h2>AN OUTDOOR MEDIA COMPANY</h2>
+        </div>
+    </section>
+
+    <section id="photography">
+        <h1 style="color: red; text-align: center;font-size: 40px;">PHOTOGRAPHY</h1>
+
+        <div class="photo-container">
+
+            <img src="./images/thumbnail_1.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_2.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_3.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_4.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_5.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_6.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_7.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_8.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_9.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_10.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_11.jpg" alt="photo-1" width="100%" height="100%">
+            <img src="./images/thumbnail_12.jpg" alt="photo-1" width="100%" height="100%">
+
+        </div>
+
+    </section>
+
+    <section id="featured-video">
+        <h1>FEATURED VIDEO</h1>
+        <iframe src="https://www.youtube.com/embed/vVeH6hs_8R8" width="460px" height="320px"
+            frameborder="0"></iframe><br>
+        <iframe src="https://www.youtube.com/embed/w1V-x7FLKfs" frameborder="0" width="460px"
+            height="320px"></iframe><br>
+        <iframe src="https://www.youtube.com/embed/8Vw212Z1k8s" frameborder="0" width="460px" height="320px"></iframe>
+    </section>
+
+    <section id="contact">
+        <h1 style="text-align: center; font-size: 50px;color: red;">LET US TELL YOUR STORY!</h1>
+        <p style="text-align: center;">CONTACT US TO BE FEATURED</p>
+
+        <form id="contact-form">
+
+            <div>
+                <label for="fname">First Name</label><br>
+                <input type="text" name="fname" id="data-input">
+            </div>
+
+
+            <div>
+                <label for="lname">Last Name</label><br>
+                <input type="text" name="lname" id="data-input">
+            </div>
+
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="text" name="email" id="data-input">
+            </div>
+
+            <div>
+                <label for="phone-number">Phone Number</label><br>
+                <input type="tel" name="phone-number" id="data-input">
+            </div>
+
+            <div>
+                <label for="age">Age</label><br>
+                <input type="number" id="data-input">
+                <input type="submit" value="Submit" id="submitBtn">
+            </div>
+
+
+        </form>
+
+    </section>
+    <footer>
+        <p style="text-align: center; color: red;">Photos belong to C.Kirk Hilton | Video Copyright 2021 Up and Coming
+            Films | Salt Lake City, Utah</p>
+    </footer>
+</body>
+
+</html>
