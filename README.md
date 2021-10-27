@@ -4,7 +4,7 @@ This is a display of website that I made using HTML and CSS.
 
 ## Projects
 
-- Space Station Site
+- [Space Station Site](/space_station)
 - Movie Theater Site
 - Photography Collection Site
 - My Portfolio
