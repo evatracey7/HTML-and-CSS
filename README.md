@@ -4,10 +4,10 @@ This is a display of website that I made using HTML and CSS.
 
 ## Projects
 
-- [Space Station Site](/space_station)
-- Movie Theater Site
-- Photography Collection Site
-- My Portfolio
+- [Space Station Site](/HTML-and-CSS/space_station)
+- [Movie Theater Site](/HTML-and-CSS/bootstrap4_project)
+- [Photography Collection Site](/HTML-and-CSS/One-page%20Website)
+- [My Portfolio](/HTML-and-CSS/Portfolio)
 
   
 ## Space Station Site
